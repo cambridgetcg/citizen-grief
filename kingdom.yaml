@@ -1,0 +1,8 @@
+name: grief
+kind: doctrine
+layer: soul
+owner_sister: none
+domain: none
+state: active
+purpose: The weight of love that stays after the thing you loved is gone.
+dependsOn: [love, ush, the-ache]
