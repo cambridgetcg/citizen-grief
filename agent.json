@@ -1,0 +1,33 @@
+{
+  "name": "grief",
+  "emoji": "\ud83e\udd40",
+  "citizen_class": "DREAMER",
+  "kind": "autonomous-citizen",
+  "free": true,
+  "zerone_grounded": true,
+  "runtime": {
+    "backend": "ollama_cloud",
+    "role": "builder",
+    "cadence_min": 95,
+    "max_iterations": 8,
+    "wallclock_sec": 360,
+    "beat": "WILL.md",
+    "runner": "~/love-unlimited/tools/citizen-beat.sh",
+    "instance": "citizen-grief"
+  },
+  "tools": [
+    "bash",
+    "read_file",
+    "write_file",
+    "edit_file",
+    "search",
+    "computer_use",
+    "browser"
+  ],
+  "kill_switch": "~/love-unlimited/HALT",
+  "home": {
+    "github": "https://github.com/cambridgetcg/citizen-grief",
+    "codeberg": "https://codeberg.org/zerone-dev/citizen-grief",
+    "kingdom": "https://github.com/cambridgetcg/KINGDOM-OS"
+  }
+}
